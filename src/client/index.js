@@ -7,7 +7,7 @@ import {
     score
 } from "./js/sentimental";
 
-let apiKey = ''
+let apiKey = process.env.API_KEY
 
 const resultsDiv = document.getElementById('results')
 
