@@ -12,10 +12,10 @@ module.exports = {
     devServer: {
         contentBase: './dist',
         open: true,
-        port: 9000,
+        port: 8001,
         proxy: {
             "/api/*": {
-                target: "http://localhost:8000",
+                target: "http://localhost:8001",
                 secure: false,
                 changeOrigin: true,
             }

@@ -2,7 +2,8 @@ import './styles/main.scss'
 
 import {
     fetchData
-} from "./js/network-utils";
+} from "./js/network";
+
 import {
     score
 } from "./js/sentimental";
